@@ -58,14 +58,18 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "MikeZuff"
       logoHomeLink = "/"
 
     [languages.en.menu]
+      #[[languages.en.menu.main]]
+        #identifier = "about"
+        #name = "About"
+        #url = "/about"
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/michael-z-903b1a3/"
       [[languages.en.menu.main]]
         identifier = "github"
         name = "GitHub"
