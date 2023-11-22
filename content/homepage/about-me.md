@@ -12,3 +12,7 @@ I am a:
 - runner of many miles
 - baker of fine carbs
 - engineer of fine software
+
+
+As a software engineer I have been creating tools for managing and observing networks since 2004. 🧙‍♂️
+I'm passionate about working together with other motivated individuals to solve business and technical problems.
