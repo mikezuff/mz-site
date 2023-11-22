@@ -1,15 +1,9 @@
-
-lead software engineer
 ---
+header_image: "images/gorge-sunrise-light.jpg"
+header_use_video: false
+header_headline: "Michael Zuffoletti"
+header_subheadline: "Software Engineer"
 
-DNS
----
-
-CDN
----
-
-WWW
----
-
-PNW
+nav_to_top_title: "Return To Top"
+nav_to_top_weight: last
 ---
