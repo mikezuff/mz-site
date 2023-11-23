@@ -1,7 +1,4 @@
-@media only screen and (max-width: 500px) {
-  #site-head.withCenteredImage {
+img {
     max-width: 100%;
     height: auto;
-    background-size: cover;
   }
-}
