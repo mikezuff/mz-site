@@ -1,22 +1,13 @@
 baseURL = "https://zuff.dev"
 languageCode = "en-us"
-
-# This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
 defaultContentLanguage = "en"
-
-# The name of this wonderful theme ;-).
-theme = "hugo-scroll"
+theme = "m10c"
 
 # The browser tab name
 title = "Mike Zuffoletti"
 
-# In order to add version information in the page's footer set to true.
-# enableGitInfo = true
-
 # Theme-specific variables `.Site.Params.myParamName`
-[params]
+[hugoscroll.params]
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon-32x32.png"
