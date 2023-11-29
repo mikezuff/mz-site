@@ -6,11 +6,42 @@ theme = "m10c"
 # The browser tab name
 title = "Mike Zuffoletti"
 
+
+[params]
+  author = "Mike Zuffoletti"
+  description = "Software Engineer"
+  favicon = "images/favicon-32x32.png"
+  avatar = "images/headshot-bonneville.jpg"
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    identifier = "running"
+    name = "Running"
+    url = "/running/"
+    weight = 4
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/mikezuff"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/michael-zuffoletti-903b1a3"
+
 # Theme-specific variables `.Site.Params.myParamName`
 [hugoscroll.params]
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon-32x32.png"
 
     # These "images" are used for the structured data templates. This will show up, when
     # services like Twitter or Slack want to generate a preview of a link to your site.
