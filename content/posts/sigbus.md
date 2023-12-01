@@ -51,7 +51,8 @@ Turns out this conclusion is correct, but not in the sense that I initially expe
 
 With the file being memory-mapped we expect that the contents will never change.
 When the updater process puts the new file into place it needs to do so atomically so there's no way that any reader can see a partial file.
-If we want to keep using the same filename for this file after it's updated, the updater needs to write all the bytes to a different file then rename it to the expected filename.
+If we want to keep using the same filename for this file after it's updated, the updater needs to write all the bytes to a different file then move it to the expected filename.
+At the shell `mv` would accomplish this; code could use or be like [this func](https://github.com/tailscale/tailscale/blob/f4da995940ea13bda69979ec1a07251c6b757c5d/atomicfile/atomicfile.go#L20).
 After this happens the old bytes are only accessible to processes that already have it open, and the new bytes are available for reading the next time the file is opened.
 
 But the updater isn't doing that.
