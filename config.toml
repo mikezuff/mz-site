@@ -12,6 +12,7 @@ title = "Mike Zuffoletti"
   description = "Software Engineer"
   favicon = "images/favicon-32x32.png"
   avatar = "images/headshot-bonneville.jpg"
+  image = "gorge-sunrise-light.jpg"
 
   [[menu.main]]
     identifier = "home"
@@ -28,6 +29,7 @@ title = "Mike Zuffoletti"
     name = "Running"
     url = "/running/"
     weight = 4
+
 
   [[params.social]]
     icon = "github"
